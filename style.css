@@ -1,0 +1,16 @@
+canvas{
+    text-align: center;
+    background-color: aqua;
+    width: 400px;
+    height: 600px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+}
+
+section{
+    text-align: center;
+    font-weight: bold;
+}
