@@ -1,16 +1,47 @@
-canvas{
+body {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    
+  }
+  
+  div#titulo {
     text-align: center;
-    background-color: aqua;
-    width: 400px;
-    height: 600px;
-    padding-left: 0%;
-    padding-right: 0%;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button#btn {
+    padding-left: 0;
+    padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    display: block;    
-}
-
-section{
+    display: block;
+  }
+  
+  div#pontos {
     text-align: center;
+    font-size: 16px;
+    color: white;
     font-weight: bold;
-}
+  }
+  
+  
+  canvas#next {
+    background-color: #33FF33;
+    text-align: left;
+  }
+  
+  canvas#tela {
+    background-color: #33FF33;
+  }
+  
+  div#teladiv {
+  
+  }
+  
+  div#nextdiv {
+    padding-left: 15px;
+  }
+  
